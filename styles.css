@@ -20,11 +20,9 @@ header {
   padding: 1rem 3rem;
   background: #fff;
 }
-
 .logo img {
   max-height: 40px;
 }
-
 nav ul {
   display: flex;
   list-style: none;
