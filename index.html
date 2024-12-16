@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MelpApp Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header style="z-index: 1000 !important">
+      <div class="logo">
+        <img src="https://www.melp.us/images/Melplogo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li>FEATURES</li>
+          <li>DOWNLOAD</li>
+          <li>PRICING</li>
+          <li>HELP CENTER</li>
+          <li>JOIN A MEETING</li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <button class="sign-in">SIGN IN</button>
+        <button class="try-free">TRY FOR FREE</button>
+      </div>
+      <div class="menubar">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </header>
+    <!-- Header -->
+    <!-- Main Content -->
+    <section class="hero" style="z-index: 1000 !important">
+      <div class="hero-text">
+        <h1>Create<br />Communicate<br />Collaborate</h1>
+        <p>
+          MelpApp’s AI-powered platform enables teams and individuals to work
+          faster and more flexibly than ever before, from any location and on
+          any device.
+        </p>
+        <div class="buttons">
+          <button class="try-free">TRY FOR FREE</button>
+          <button
+            class="try-free"
+            style="
+              background-color: #fff;
+              color: black;
+              border: 2px solid #ccc !important;
+            "
+          >
+            WATCH NOW
+            <!-- <img style="padding-left: 1rem; " src="https://www.melp.us/images/watchNowIcon.svg" alt="" /> -->
+          </button>
+        </div>
+      </div>
+      <div class="hero-images">
+        <div class="mockup">
+          <video
+            preload="none"
+            playsinline=""
+            width="100%"
+            height="100%"
+            muted=""
+            disablepictureinpicture=""
+            controlslist="nodownload"
+            poster="https://www.melp.us/video/main-poster-new-2.webp"
+            id="myVideo"
+          >
+            <source
+              src="https://www.melp.us/video/herosectionVideo-1.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- Main Content -->
+    <!-- menu scroll -->
+    <section class="main-container">
+      <div class="sidenav" id="navbar" style="z-index: 1 !important">
+        <ul>
+          <li>
+            <a href="#a" class="menu-item" data-content="teams">
+              <img src="https://www.melp.us/images/team.svg" />
+              Teams</a
+            >
+          </li>
+
+          <li>
+            <a href="#b" class="menu-item" data-content="meet">
+              <img src="https://www.melp.us/images/conference.svg" />Meet</a
+            >
+          </li>
+          <li>
+            <a href="#c" class="menu-item" data-content="networking">
+              <img src="https://www.melp.us/images/network.svg" />
+
+              Networking</a
+            >
+          </li>
+          <li>
+            <a href="#d" class="menu-item" data-content="translation">
+              <img src="https://www.melp.us/images/translate-f.svg" />
+
+              Translation</a
+            >
+          </li>
+          <li>
+            <a href="#e" class="menu-item" data-content="groups">
+              <img src="https://www.melp.us/images/group.svg" />
+
+              Groups</a
+            >
+          </li>
+          <li>
+            <a href="#f" class="menu-item" data-content="calendar">
+              <img src="https://www.melp.us/images/calendarActive.svg" />
+
+              Calendar</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div id="a" class="content-section">
+          <p>
+            Work closely and collaborate by keeping conversations organized by
+            specific topics and projects with MelpApp teams.
+          </p>
+          <h6>Learn More</h6>
+          <video
+            loop=""
+            autoplay=""
+            muted=""
+            playsinline=""
+            preload="none"
+            width="100%"
+            height="100%"
+            class="mobile_video lazyloaded"
+            data-feature="network"
+            data-element="3"
+            id="feature3Video"
+            poster="https://www.melp.us/video/networking-poster-features.webp"
+          >
+            <source
+              src="https://www.melp.us/video/network-4.mp4"
+              type="video/mp4"
+            />
+            <!-- <img src="images/teams.png"
+                 alt=" Example of the MelpApp immersive share featureg"> -->
+          </video>
+        </div>
+        <div id="b" class="content-section">
+          <p>
+            Host virtual hybrid meetings that feel like you’re all in the same
+            room. No echo. No expensive hardware.
+          </p>
+          <h6>Learn More</h6>
+          <video
+            loop=""
+            autoplay=""
+            muted=""
+            playsinline=""
+            preload="none"
+            width="100%"
+            height="100%"
+            class="mobile_video lazyloaded"
+            data-feature="conference"
+            data-element="2"
+            id="feature2Video"
+            poster="https://www.melp.us/video/conference-poster.webp"
+          >
+            <source
+              src="https://www.melp.us/video/conference-4.mp4"
+              type="video/mp4"
+            />
+            <!-- <img src="images/teams.png"
+                 alt=" Example of the MelpApp immersive share featureg"> -->
+          </video>
+        </div>
+        <div id="c" class="content-section">
+          <p>
+            Connect with freelancers, consultants, clients, partners, and those
+            outside your work.
+          </p>
+          <h6>Learn More</h6>
+          <video
+            loop=""
+            autoplay=""
+            muted=""
+            playsinline=""
+            preload="none"
+            width="100%"
+            height="100%"
+            class="mobile_video lazyloaded"
+            data-feature="conference"
+            data-element="2"
+            id="feature2Video"
+            poster="https://www.melp.us/video/conference-poster.webp"
+          >
+            <source
+              src="https://www.melp.us/video/conference-4.mp4"
+              type="video/mp4"
+            />
+            <!-- <img src="images/teams.png"
+                 alt=" Example of the MelpApp immersive share featureg"> -->
+          </video>
+        </div>
+        <div id="d" class="content-section">
+          <p>
+            Spend less time translating and communicating quickly in six
+            different languages.
+          </p>
+          <h6>Learn More</h6>
+          <video
+            loop=""
+            autoplay=""
+            muted=""
+            playsinline=""
+            preload="none"
+            width="100%"
+            height="100%"
+            class="mobile_video lazyloaded"
+            data-feature="conference"
+            data-element="2"
+            id="feature2Video"
+            poster="https://www.melp.us/video/conference-poster.webp"
+          >
+            <source
+              src="https://www.melp.us/video/conference-4.mp4"
+              type="video/mp4"
+            />
+            <!-- <img src="images/teams.png"
+                 alt=" Example of the MelpApp immersive share featureg"> -->
+          </video>
+        </div>
+        <div id="e" class="content-section">
+          <p>
+            An open, connected structure allows information to flow freely among
+            everyone in the organization.
+          </p>
+          <h6>Learn More</h6>
+          <video
+            loop=""
+            autoplay=""
+            muted=""
+            playsinline=""
+            preload="none"
+            width="100%"
+            height="100%"
+            class="mobile_video lazyloaded"
+            data-feature="conference"
+            data-element="2"
+            id="feature2Video"
+            poster="https://www.melp.us/video/conference-poster.webp"
+          >
+            <source
+              src="https://www.melp.us/video/conference-4.mp4"
+              type="video/mp4"
+            />
+            <!-- <img src="images/teams.png"
+                 alt=" Example of the MelpApp immersive share featureg"> -->
+          </video>
+        </div>
+        <div id="f" class="content-section">
+          <p>
+            Schedule your meetings with individuals or teams in one online
+            calendar - so you never miss any of your meetings.
+          </p>
+          <h6>Learn More</h6>
+          <video
+            loop=""
+            autoplay=""
+            muted=""
+            playsinline=""
+            preload="none"
+            width="100%"
+            height="100%"
+            class="mobile_video lazyloaded"
+            data-feature="conference"
+            data-element="2"
+            id="feature2Video"
+            poster="https://www.melp.us/video/conference-poster.webp"
+          >
+            <source
+              src="https://www.melp.us/video/conference-4.mp4"
+              type="video/mp4"
+            />
+            <!-- <img src="images/teams.png"
+                 alt=" Example of the MelpApp immersive share featureg"> -->
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- menu scroll -->
+    <!-- Workflow Section -->
+    <section class="workflow" style="z-index: 1000 !important">
+      <div class="workflow-text">
+        <h1>Speed Up<br />Your<br />Workflow</h1>
+        <ul class="workflow-list">
+          <li><span class="circle">1</span> Switch Between Devices</li>
+          <li><span class="circle">2</span> Reduce E-mail Jumble</li>
+          <li><span class="circle">3</span> Manage Your Files</li>
+        </ul>
+      </div>
+      <div class="workflow-images">
+        <!-- Desktop Mockup -->
+        <div class="image-container desktop">
+          <img src="https://www.melp.us/images/workflowListingtab1.webp" />
+        </div>
+        <!-- Mobile Mockup
+        <div class="image-container mobile">
+          <img src="placeholder-mobile.png" alt="Mobile View" />
+        </div> -->
+      </div>
+    </section>
+    <!-- Workflow Section -->
+    <!-- Access Section -->
+    <section class="access-melp" style="z-index: 1000 !important">
+      <div class="text-content">
+        <h1>Access Melp<br />On The Go.</h1>
+        <p>MelpApp is now available for Android and iOS platforms</p>
+
+        <div class="download-buttons">
+          <a href="#" class="btn">
+            <img
+              src="https://www.melp.us/images/appBtn1.svg"
+              alt="Google Play"
+            />
+          </a>
+          <a href="#" class="btn">
+            <img src="https://www.melp.us/images/appBtn3.svg" alt="App Store" />
+          </a>
+          <a href="#" class="btn desktop-btn">
+            <img
+              src="https://www.melp.us/images/appBtn3.svg"
+              alt="Desktop Coming Soon"
+            />
+          </a>
+          <a href="#" class="btn">
+            <img src="https://www.melp.us/images/appBtn4.svg" alt="Browser" />
+          </a>
+        </div>
+
+        <!-- QR Code -->
+        <div class="qr-code">
+          <img
+            src="https://www.melp.us/images/melpQrCode.png"
+            alt="Scan to download"
+          />
+          <p>Scan to download</p>
+        </div>
+        <img
+          class="mobile"
+          src="https://www.melp.us/images/calendar.webp"
+          alt="Scan to download"
+        />
+      </div>
+
+      <!-- Mobile Screen Visuals -->
+    </section>
+    <!-- Access Section -->
+    <!-- Testimonials Section -->
+    <section class="testimonials" style="z-index: 1000 !important">
+      <div class="new-container">
+        <div class="section-title">
+          <p class="subtitle">Team Collaboration Redefined</p>
+          <h2>
+            Helping World-Class Teams <br />
+            Work Faster Together.
+          </h2>
+        </div>
+        <div class="testimonials-wrapper">
+          <div class="testimonial-header">
+            <h3>What Others Are Saying</h3>
+            <div class="navigation-buttons">
+              <button class="nav-btn">&#8592;</button>
+              <button class="nav-btn">&#8594;</button>
+            </div>
+          </div>
+          <div class="testimonial-cards">
+            <!-- Testimonial Card 1 -->
+            <div class="testimonial-card">
+              <div class="profile">
+                <img
+                  src="https://www.melp.us/images/client-6.svg"
+                  alt="Romeo Miles"
+                />
+                <div>
+                  <h4 class="name">Romeo Miles</h4>
+                  <p class="title">Superintendent</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                Using the MelpApp, I have been able to set up video conferences
+                quickly with customers all over the world; the interface is very
+                intuitive and fast, and its features are solid.
+              </p>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="testimonial-card">
+              <div class="profile">
+                <img src="https://www.melp.us/images/client-5.svg" />
+                <div>
+                  <h4 class="name">Esther Hills</h4>
+                  <p class="title">Director of Recruiting</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                It's truly a “Multi-Enterprise Linking Platform” as it is. I
+                could quickly create meetings with my internal teams and
+                contractors over video conferencing.
+              </p>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="testimonial-card">
+              <div class="profile">
+                <img
+                  src="https://www.melp.us/images/client-5.svg"
+                  alt="Ethel Johnston"
+                />
+                <div>
+                  <h4 class="name">Ethel Johnston</h4>
+                  <p class="title">Human Directives Director</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                Loved the user-experience of this cloud and mobile-based app
+                which I found to be a perfect fit for business communications.
+                It helped our teams manage meetings and file sharing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <!-- Workspace Section -->
+    <section class="workspace" style="z-index: 1000 !important">
+      <div class="crdcontainer">
+        <div class="crdsection-header">
+          <h2>
+            Select The Ideal Communication Channel For Your Business And Solo
+            Enterprise
+          </h2>
+        </div>
+        <div class="workspace-cards">
+          <!-- Individual Workspace Card -->
+          <div class="workspace-card">
+            <img
+              src="https://www.melp.us/images/business1.webp"
+              alt="Individual Workspace"
+            />
+            <div class="card-content">
+              <h3>Individual Workspace</h3>
+              <p>
+                MelpApp individual workspace makes it easy to connect and engage
+                with people wherever they are, so you spend less time on
+                everyday tasks and more time with clients.
+              </p>
+              <button class="learn-more">Learn More</button>
+            </div>
+          </div>
+          <!-- Business Workspace Card -->
+          <div class="workspace-card">
+            <img
+              src="https://www.melp.us/images/business2.webp"
+              alt="Business Workspace"
+            />
+            <div class="card-content">
+              <h3>Business Workspace</h3>
+              <p>
+                Easily manage your team, accept and assign responsibility, and
+                track the process to completion. A one-stop solution to keep
+                your business productive and flexible.
+              </p>
+              <button class="learn-more">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Workspace Section -->
+    <!-- Footer Section -->
+    <footer style="z-index: 1000 !important">
+      <div class="footer-container">
+        <!-- Left Section: Logo -->
+        <div class="footer-left">
+          <div class="logo">
+            <img
+              src="https://www.melp.us/images/Melplogo.png"
+              alt="MelpApp Logo"
+            />
+          </div>
+          <p>COMMUNICATE TO COLLABORATE</p>
+        </div>
+
+        <!-- Middle Section: QR Code -->
+        <div class="footer-qr">
+          <p>Scan to download</p>
+          <img src="https://www.melp.us/images/melpQrCode.png" />
+        </div>
+
+        <!-- Right Section: Links -->
+        <div class="footer-links">
+          <div class="column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Melp Blog</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Security</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Help</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Melp Guide</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Others</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookies Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media and Copyright -->
+      <div class="footer-bottom">
+        <div class="social-icons">
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <p>&copy; MelpApp 2024, All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
